@@ -33,7 +33,11 @@ public class Lab6 {
             nums.add(a1[i]);
         }
     }
-
+    
+    /**
+    ** This is the method the swaps the values in the ArrayList and 
+    *  does so in an optimized fashion.
+    */
     public static void otherMethod(ArrayList<Integer> arr, int k) {
         int i = 1;
         int j = arr.size();
